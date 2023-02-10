@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    font-family: Smythe;
+    background: whitesmoke;
+}
+
+main,
+header {
+    max-width: 400px;
+    margin: auto;
+}
+
+header {
+    position: relative;
+    color: white;
+    text-shadow: 0 0 2px black;
+}
+
+header div {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    margin: 20px 15px 30px;
+}
+
+img {
+    width: 100%;
+    height: 100px;
+}
+
+h2,
+h3,
+h4 {
+    margin: 0
+}
+
+p {
+    margin: 2px
+}
+
+.menu-item {
+    display: flex;
+    padding: 5px;
+    gap: 15px;
+    border-bottom: 1px solid grey;
+    align-items: center;
+    font-family: 'Lobster', cursive;
+    /* border: 1px solid grey; */
+}
+
+.menu-item h1 {
+    font-size: 70px;
+    font-weight: 400;
+}
+
+.menu-item div p {
+    color: grey;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.menu-item button {
+    margin: auto 0 auto auto;
+    align-self: flex-end;
+    border-radius: 50%;
+    padding: 5px 10px;
+    border: 0.5px solid lightgray;
+    background-color: white;
+}
+
+
+/* Purchase section */
+
+.purchase {
+    display: none;
+    max-width: 400px;
+    text-align: center;
+    font-family: 'lobster', cursive;
+    margin: auto;
+    padding: 5px;
+}
+
+.purchase button {
+    width: 100%;
+    background: #16DB99;
+    border: none;
+    padding: 10px 0;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.purchase-section {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    padding: 5px;
+    gap: 8px;
+}
+
+.purchase-section p {
+    background: #fff;
+    font-size: 13px;
+    /* margin-top: auto;
+    margin-bottom: auto; */
+    color: grey;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.purchase-section h5 {
+    margin-left: auto;
+}
+
+.total-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Modal */
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background: white;
+    border: 1px solid #757575;
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    font-family: sans-serif;
+    border-radius: 5px;
+}
+
+form {
+    padding: 20px;
+}
+
+form h2 {
+    margin: 5px auto 15px;
+}
+
+input {
+    margin: 10px;
+    line-height: 40px;
+    width: 90%;
+    padding-left: 10px;
+}
+
+input[type='submit'] {
+    background: #16DB99;
+    border: none;
+    width: 95%;
+    margin-top: 25px;
+    color: white;
+    font-weight: bold;
+    /* background: #6da391; */
+}
+/* message */
+
+.message-div {
+    background-color: #ECFDF5;
+    color: #16DB99;
+    text-align: center;
+    margin: 15px auto;
+    padding: 10px;
+    font-family: Smythe;
+}
+.message-div p {
+    font-size: 26px;
+}
